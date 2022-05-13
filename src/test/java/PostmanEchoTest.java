@@ -22,7 +22,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("Test"))
+                .body("data", equalTo("Test1"))
         ;
     }
 
@@ -37,7 +37,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("id:50"))
+                .body("data", equalTo("id:5"))
         ;
     }
 }
